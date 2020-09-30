@@ -50,7 +50,8 @@ $(function($) {
   });
 
   $('.alike-wrap, .also-buy-1, .Golf1-wrap').slick({
-    speed: 300,
+    autoplay:true,
+    speed: 150,
     slidesToShow: 5,
     slidesToScroll: 1,
     infinite: true,
@@ -79,7 +80,8 @@ $(function($) {
   });
 
   $('.viewed-items-wrap').slick({
-    speed: 300,
+    autoplay:true,
+    speed: 150,
     slidesToShow: 5,
     slidesToScroll: 1,
     infinite: true,
@@ -113,7 +115,7 @@ $(function($) {
       $('.articles').slick('unslick');
     }
     $('.articles').slick({
-      speed: 300,
+      speed: 150,
       slidesToShow: 1,
       slidesToScroll: 1,
       infinite: true,
@@ -128,7 +130,8 @@ $(function($) {
       $('.also-buy-'+index).slick('unslick');
     }
     $('.also-buy-'+index).slick({
-      speed: 300,
+      autoplay:true,
+      speed: 150,
       slidesToShow: 5,
       slidesToScroll: 1,
       infinite: true,
@@ -210,7 +213,8 @@ $(function($) {
       $('.'+wrap).slick('unslick');
     }
     $('.'+wrap).slick({
-      speed: 300,
+      autoplay:true,
+      speed: 150,
       slidesToShow: 5,
       slidesToScroll: 1,
       infinite: true,
